@@ -1,0 +1,46 @@
+.site-top-section {
+  background-image: url("../../../images/site-top-img.svg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 700px 900px;
+  /* padding-bottom: 1000px; */
+}
+
+.site-header {
+  padding-top: 35px;
+}
+
+.container {
+  max-width: 1075px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.site-header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__logo-img {
+  display: block;
+}
+
+.site-header__menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-header_menu-item {
+  margin-left: 35px;
+}
+
+.site-header_menu-link {
+  text-decoration: none;
+  color: #444;
+  font-weight: 400;
+}
