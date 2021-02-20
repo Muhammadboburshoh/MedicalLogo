@@ -8,4 +8,61 @@
 
 .intro__right {
   padding-top: 150px;
+  max-width: 500px;
+}
+
+.intro__span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0DB51E;
+  display: flex;
+  align-items: center;
+}
+
+.intro__span::before {
+  content: "";
+  display: inline-block;
+  width: 55px;
+  height: 3px;
+  background-color: #0DB51E;
+  margin-right: 20px;
+}
+
+.intro__heading {
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 100px;
+  font-feature-settings: 'liga' off;
+  margin: 0;
+  margin-top: 16px;
+  color: #0DB51E;
+}
+
+.intro__heading span {
+  color: #111;
+}
+
+.intro__heading p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  background-color: rgb(211, 204, 204);
+}
+
+.inpto__text {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.intro__bottom-heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #10375C;
 }
