@@ -106,7 +106,7 @@
 .intro__link {
   display: inline-block;
   margin-top: 35px;
-  min-width: 210px;
+  width: 210px;
   text-align: center;
   line-height: 28px;
 }
