@@ -89,6 +89,7 @@
   height: 60px;
   background-repeat: no-repeat;
   background-position: center center;
+  cursor: pointer;
 }
 
 .services__left {

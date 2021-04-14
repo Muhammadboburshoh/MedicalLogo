@@ -6,7 +6,6 @@ import second_performance from "../../../images/second-performance.png"
 import therd_performance from "../../../images/therd-performance.png"
 import performance_img from "../../../images/performance-img.jpg"
 
-
 function Performance () {
 
   return (
