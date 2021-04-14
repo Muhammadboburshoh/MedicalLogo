@@ -68,7 +68,96 @@
 }
 
 .insurance__about_wrapper {
-  width: 500px;
+  max-width: 500px;
+  margin-right: 60px;
+}
 
+.insurance__about-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.insurance__about-list {
+  margin: 0;
+  left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.insurance__about-item {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  text-align: center;
+  color:rgb(12, 169, 28);
+  font-weight: bold;
+}
+
+.contact__container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.contact__left-wrapper {
+  max-width: 40%;
+  margin-right: 60px;
+}
+
+.contact__heading {
+  font-family: Mulish;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.contact__text {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.contact__username {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 50px;
+  outline: none;
+  box-sizing: border-box;
+
+}
+
+.username {
+  margin-right: 20px;
+}
+
+.username:last-child {
+  margin-right: 0;
+}
+
+.contact__select {
+  box-sizing: border-box;
+  min-width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 50px;
+  outline: none;
+}
+
+.contact__button {
+  border: none;
 }
 
