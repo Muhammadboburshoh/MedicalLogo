@@ -1,0 +1,16 @@
+.performance {
+  background-color: rgb(12, 169, 28, 6%);
+  padding: 50px;
+}
+
+.performance__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.performance__item {
+  
+}
