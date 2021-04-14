@@ -1,0 +1,102 @@
+.services__company-logos {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.services {
+  background-color: rgb(13, 181, 30, 6%);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.services__heading {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.services__heading span {
+  color: #0CA91C;
+}
+
+.services__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.service__link {
+  width: 33%;
+  text-decoration: none;
+  color: #000;
+}
+
+.service__img {
+  padding: 90px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: unset;
+  margin-bottom: 30px;
+}
+
+.service__img-first {
+  background-image: url("../../../images/first-service.svg");
+}
+.service__img-second {
+  background-image: url("../../../images/second-service.svg");
+}
+.service__img-third {
+  background-image: url("../../../images/therd-service.svg");
+}
+
+.service__heading {
+  font-family: Mulish;
+  font-size: 22px;
+  line-height: 30px;
+  max-width: 230px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+}
+
+.service__text {
+  font-family: Lato;
+  max-width: 280px;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 40px;
+}
+
+.services__buttons {
+  margin-left: auto;
+}
+
+.services-btn {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.services__left {
+  background-image: url('../../../images/left.png');
+}
+
+.services__right {
+  background-color: #0CA91C;
+  background-image: url('../../../images/right.png');
+  margin-left: 20px;
+}
