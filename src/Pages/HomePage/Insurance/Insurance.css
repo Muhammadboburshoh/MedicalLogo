@@ -96,7 +96,6 @@
 
 .contact__container {
   display: flex;
-  align-items: center;
   margin-top: 30px;
   margin-bottom: 40px;
 }
@@ -104,6 +103,7 @@
 .contact__left-wrapper {
   max-width: 40%;
   margin-right: 60px;
+  margin-top: -20px;
 }
 
 .contact__heading {
