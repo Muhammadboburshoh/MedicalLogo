@@ -1,42 +1,56 @@
+import { Link, NavLink } from 'react-router-dom'
+import { useRef } from 'react'
+
 import Intro from "../Intro/Intro"
 import "./style.css"
 import Logo from "../../../images/logo.svg"
 
 function Header () {
 
+  const refMenu = useRef(null)
+
+  const refButton = useRef(null)
+
   return (
     <section className="site-top-section">
 
       <header className="site-header">
-        <div className="container">
+        <div className="container site-header__conatiner">
           <nav className="site-header__navbar">
-            <a href="#" className="site-header__logo-link">
+            <Link to="#" className="site-header__logo-link">
               <img className="site-header__logo-img" src={Logo} alt="site-logo" />
-            </a>
+            </Link>
 
-            <ul className="site-header__menu">
+            <ul ref={refMenu} className="site-header__menu">
               <li className="site-header_menu-item">
-                <a href="" className="site-header_menu-link">Loans</a>
+                <Link to="#" className="site-header_menu-link">Loans</Link>
               </li>
               <li className="site-header_menu-item">
-                <a href="" className="site-header_menu-link">Privilege line</a>
+                <Link to="#" className="site-header_menu-link">Privilege line</Link>
               </li>
               <li className="site-header_menu-item">
-                <a href="" className="site-header_menu-link">Stocks</a>
+                <Link to="#" className="site-header_menu-link">Stocks</Link>
               </li>
               <li className="site-header_menu-item">
-                <a href="" className="site-header_menu-link">Insurance</a>
+                <Link to="#" className="site-header_menu-link">Insurance</Link>
               </li>
               <li className="site-header_menu-item">
-                <a href="" className="site-header_menu-link">Servicase</a>
+                <Link to="#" className="site-header_menu-link">Servicase</Link>
               </li>
               <li className="site-header_menu-item">
-                <a href="" className="site-header_menu-link">Wallet & Cards</a>
+                <Link to="#" className="site-header_menu-link">Wallet & Cards</Link>
               </li>
               <li className="site-header_menu-item">
-                <a href="" className="site-header_menu-link">Contact Us</a>
+                <Link to="#" className="site-header_menu-link">Contact Us</Link>
               </li>
             </ul>
+
+            <button ref={refButton} onClick={
+              e => {
+                refMenu.current.classList.toggle('site-header__menu-open')
+                refButton.current.classList.toggle('hamburger-nofixed')
+              }
+            } className="hamburger-button open-menu close-menu hamburger-nofixed">x</button>
           </nav>
         </div>
       </header>

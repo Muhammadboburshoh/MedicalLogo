@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import "../../../App.css"
 import "./Intro.css"
 
@@ -15,7 +17,7 @@ function Intro () {
           <select className="intro__select" name="insurance" id="select">
             <option className="intro__option" value="accident">Personal Accident Insurance</option>
           </select>
-          <a href="#" className="green-link intro__link">Get a free Quote</a>
+          <Link to="#" className="green-link intro__link">Get a free Quote</Link>
         </div>
       </div>
     </section>
