@@ -49,8 +49,10 @@ function Header () {
               e => {
                 refMenu.current.classList.toggle('site-header__menu-open')
                 refButton.current.classList.toggle('hamburger-nofixed')
+                refButton.current.classList.toggle('open-menu')
+                refButton.current.classList.toggle('close-menu')
               }
-            } className="hamburger-button open-menu close-menu hamburger-nofixed">x</button>
+            } className="hamburger-button open-menu hamburger-nofixed"></button>
           </nav>
         </div>
       </header>
