@@ -17,7 +17,7 @@ function Intro () {
           <select className="intro__select" name="insurance" id="select">
             <option className="intro__option" value="accident">Personal Accident Insurance</option>
           </select>
-          <Link to="#" className="green-link intro__link">Get a free Quote</Link>
+          <Link to="#" className="green-link intro__link"><span className="green__btn-text">Get a free Quote</span></Link>
         </div>
       </div>
     </section>
