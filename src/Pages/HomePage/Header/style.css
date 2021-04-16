@@ -44,6 +44,11 @@
   font-weight: 400;
 }
 
+.site-header_menu-link:hover {
+  text-shadow: 0 0 #000;
+
+}
+
 .hamburger-button {
   display: none;
 }

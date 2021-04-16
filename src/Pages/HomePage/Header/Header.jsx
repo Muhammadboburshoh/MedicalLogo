@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { useRef } from 'react'
 
 import Intro from "../Intro/Intro"
