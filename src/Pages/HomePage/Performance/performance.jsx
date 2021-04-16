@@ -38,7 +38,9 @@ function Performance () {
         <div className="container performance__container">
           <p className="performance__about-text">Get a free quote for your move now</p>
 
-          <Link className="performance__about-link" to="#">Get a moving quote</Link>
+          <Link className="performance__about-link" to="#">
+            <span>Get a moving quote</span>
+          </Link>
         </div>
       </div>
 
