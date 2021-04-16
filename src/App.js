@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Services />
-      <About />
+      <Services />
+      {/* <About />
       <Performance />
       <Insurance />
       <Footer /> */}

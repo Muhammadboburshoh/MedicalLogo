@@ -1,8 +1,16 @@
 .services__company-logos {
   margin-top: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 50px;
+}
+
+.servicase__compony-logo {
+  margin-right: auto;
+  margin-left: auto;
+  margin: 0 20px;
+  margin-bottom: 20px;
 }
 
 .services {

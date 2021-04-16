@@ -8,9 +8,6 @@ import third_company from "../../../images/third-company.svg"
 import fourth_company from "../../../images/fourth-company.svg"
 import fifth_company from "../../../images/fifth-company.svg"
 
-import first_service from "../../../images/first-service.svg"
-import second_service from "../../../images/second-service.svg"
-import therd_service from "../../../images/therd-service.svg"
 
 function Services () {
 
@@ -20,19 +17,19 @@ function Services () {
 
         <div className="services__company-logos">
           <Link to="#">
-            <img src={first_company} alt="company img"/>
+            <img className="servicase__compony-logo" src={first_company} alt="company img"/>
           </Link>
           <Link to="#">
-            <img src={second_company} alt="company img"/>
+            <img className="servicase__compony-logo" src={second_company} alt="company img"/>
           </Link>
           <Link to="#">
-            <img src={third_company} alt="company img"/>
+            <img className="servicase__compony-logo" src={third_company} alt="company img"/>
           </Link>
           <Link to="#">
-            <img src={fourth_company} alt="company img"/>
+            <img className="servicase__compony-logo" src={fourth_company} alt="company img"/>
           </Link>
           <Link to="#">
-            <img src={fifth_company} alt="company img"/>
+            <img className="servicase__compony-logo" src={fifth_company} alt="company img"/>
           </Link>
         </div>
       </div>
