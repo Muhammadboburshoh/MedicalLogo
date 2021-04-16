@@ -102,7 +102,7 @@
 }
 
 .intro__link {
-  position: relative;
+  /* position: relative; */
   margin-top: 35px;
   width: 210px;
   text-align: center;
