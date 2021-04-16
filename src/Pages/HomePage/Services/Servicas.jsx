@@ -42,8 +42,7 @@ function Services () {
             <li className="service__item">
               <Link to="#" className="service__link">
                 <span className="service__img service__img-first"> </span>
-                <h3 className="service__heading">Medical Insurance
-          Service</h3>
+                <h3 className="service__heading">Medical Insurance Service</h3>
                 <p className="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae sit donec lectus </p>
               </Link>
             </li>
@@ -51,8 +50,7 @@ function Services () {
             <li className="service__item">
               <Link to="#" className="service__link">
                 <span className="service__img service__img-second"> </span>
-                <h3 className="service__heading">Car Insurance
-          Service</h3>
+                <h3 className="service__heading">Car Insurance Service</h3>
                 <p className="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae sit donec lectus </p>
               </Link>
             </li>
@@ -60,8 +58,23 @@ function Services () {
             <li className="service__item">
               <Link to="#" className="service__link">
                 <span className="service__img service__img-third"> </span>
-                <h3 className="service__heading">Personal Accident 
-          Insurance</h3>
+                <h3 className="service__heading">Personal Accident Insurance</h3>
+                <p className="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae sit donec lectus </p>
+              </Link>
+            </li>
+
+            <li className="service__item">
+              <Link to="#" className="service__link">
+                <span className="service__img service__img-third"> </span>
+                <h3 className="service__heading">Personal Accident Insurance</h3>
+                <p className="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae sit donec lectus </p>
+              </Link>
+            </li>
+
+            <li className="service__item">
+              <Link to="#" className="service__link">
+                <span className="service__img service__img-third"> </span>
+                <h3 className="service__heading">Personal Accident Insurance</h3>
                 <p className="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae sit donec lectus </p>
               </Link>
             </li>
