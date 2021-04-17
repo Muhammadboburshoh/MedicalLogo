@@ -38,7 +38,9 @@ function Insurance () {
             <span className="about__item-header">Why Company Name</span>
             <h3 className="about__item-heading">Why<br/> <span>Company Name?</span></h3>
             <p className="about__item-text">Dhani App bring comprehensive Health care plan for all your necessary medical expenses for you powered by GoDigit Health Insurance. This insurance comes with cashless facility across the country in more than 4700+ hospitals. This insurance covers comes with number of features which includes COVID-19 & easy claim process.</p>
-            <Link to="#" className="about__btn">Know More</Link>
+            <Link to="#" className="about__btn green-link">
+              <span className="green__btn-text">Know More</span>
+            </Link>
           </div>
 
           <ul className="insurance__about-list">
@@ -101,7 +103,9 @@ function Insurance () {
               <option value="Select Service">Select Service</option>
             </select>
 
-            <button className="contact__button about__btn">Submit</button>
+            <button className="contact__button green-link about__btn">
+              <span className="green__btn-text">Submit</span>
+            </button>
           </form>
         </div>
       </div>

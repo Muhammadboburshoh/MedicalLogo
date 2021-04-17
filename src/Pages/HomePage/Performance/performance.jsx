@@ -56,7 +56,9 @@ function Performance () {
           <span className="about__item-header">Accidental Insurance Cover</span>
           <h3 className="about__item-heading">Personal Accidental<br/> <span>Insurance Cover</span></h3>
           <p className="about__item-text">Dhani App bring comprehensive Health care plan for all your necessary medical expenses for you powered by GoDigit Health Insurance. This insurance comes with cashless facility across the country in more than 4700+ hospitals. This insurance covers comes with number of features which includes COVID-19 & easy claim process..</p>
-          <Link to="#" className="about__btn">Know More</Link>
+          <Link to="#" className="about__btn green-link">
+            <span className="green__btn-text">Know More</span>
+          </Link>
         </div>
       </li>
       </div>

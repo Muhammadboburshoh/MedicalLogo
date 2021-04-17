@@ -59,6 +59,7 @@
   display: block;
   margin-top: 30px;
   color: rgb(12, 169, 28);
+  cursor: pointer;
 }
 
 .insurance__about {
@@ -74,6 +75,7 @@
 
 .insurance__about-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -162,3 +164,92 @@
   border: none;
 }
 
+@media only screen and (max-width: 975px) {
+  .insurance__wrapper {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .insurance__about-container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .insurance__form-list {
+    flex-direction: column;
+  }
+
+  .insurance__form-input {
+    display: block;
+    min-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .contact__container {
+    flex-direction: column;
+  }
+
+  .contact__left-wrapper {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .insurance__form-input {
+    min-width: 95%;
+  }
+
+  .contact__left-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contact__heading {
+    text-align: center;
+  }
+
+  .contact__username {
+    flex-direction: column;
+  }
+
+  .contact__input {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .insurance__form {
+    padding: 0;
+    padding: 20px;
+  }
+
+  .insurance__form-input {
+    min-width: 95%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .insurance__form-input {
+    min-width: 80%;
+    width: 90%;
+  }
+
+  .insurance__form-header {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .contact__button {
+    display: block;
+    width: 100%;
+  }
+}
