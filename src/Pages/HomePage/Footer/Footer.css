@@ -70,3 +70,30 @@ svg {
 svg:hover path {
   stroke: #0CA91C;
 }
+
+@media only screen and (max-width: 750px) {
+  .footer__container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+  .footer__contact,.footer__contact span, .footer__logo, .footer__quick-link, .footer__media{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .footer__media-item {
+    margin: 30px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .footer__media-item {
+    margin: 20px;
+  }
+}

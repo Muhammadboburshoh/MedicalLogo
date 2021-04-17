@@ -15,7 +15,7 @@ function App() {
       <About />
       <Performance />
       <Insurance />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
